@@ -82,3 +82,26 @@ https://github.com/entrylabs/entryjs/pull/1506/commits/63d06de0e77e7bceaf55a46f5
 bind 함수에서 계속 반복하기를 이용해 이동하기 때문에
 오히려 성능은 떨어질 수도 있어요. :(
 더 좋은 이름이 있으면 알려주세요!
+
+## 테이블을 이용해 `함수 리턴값/지역변수` 만들기
+`2021/01/03`
+![1](https://playentry.org/uploads/discuss/7o/bu/image/7obuiby9kjh85qo20dbcbe352f5lmd5f.png)
+![2](https://playentry.org/uploads/discuss/wf/50/image/wf50iwbykjh86u440nt0be352f5k7b6t.png)
+노팁 테이블 활용 시리즈
+1. [필독]테이블을 리스트 대신 쓰기: https://playentry.org/ds#!/tips/5fef1f01d1d2ad007b9b15e4
+2. 가상 오브젝트 패턴: https://playentry.org/ds#!/tips/5ff08be56c931c0ec07b808f
+3. 함수 리턴값/지역변수: https://playentry.org/ds#!/tips/5ff1d5d1f9afcb1149818a9b
+
+"아무 번호의 항목에 접근 가능"한 테이블의 특성을 이용해 리턴값과 지역변수가 있는 함수를 만들 수 있습니다.
+(물론 텍스트코딩의 리턴값/지역변수보다는 불편하지만요. ㅜㅜ)
+
+예제 작품: https://playentry.org/dark/5ff1cd635435f009a3a7280c
+
+이 예제의 '거듭제곱' 함수는 입력값으로 '밑', '지수', '함수 ID'를 받습니다.
+'temp' 테이블의 '함수 ID' 항목에 지역변수를 저장하고,
+'return' 테이블의 '함수 ID' 항목에 결과값을 저장해 다른 함수에서도 사용할 수 있게 했습니다.
+
+이 방법을 사용하면 1. 함수마다 변수를 만들 필요가 없고, 2. 같은 함수도 사용할 때마다 다른 변수를 쓰게 할 수 있습니다.
++ 결과값을 사용할 필요가 없다면 '함수 ID'에 무작위 수를 넣어도 됩니다.
++ 이 예제에서는 행은 1로 고정해놓고 열만 ID를 넣어서 사용했는데요,
+ 필요하면 행도 사용하시거나, 소수점을 써서 2차원 리스트처럼 사용할 수도 있습니다.
