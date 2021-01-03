@@ -84,7 +84,7 @@ bind 함수에서 계속 반복하기를 이용해 이동하기 때문에
 더 좋은 이름이 있으면 알려주세요!
 
 ## 테이블을 이용해 `함수 리턴값/지역변수` 만들기
-`2021/01/03`
+`2021/01/03`  
 ![1](https://playentry.org/uploads/discuss/7o/bu/image/7obuiby9kjh85qo20dbcbe352f5lmd5f.png)
 ![2](https://playentry.org/uploads/discuss/wf/50/image/wf50iwbykjh86u440nt0be352f5k7b6t.png)
 노팁 테이블 활용 시리즈
