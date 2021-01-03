@@ -87,6 +87,7 @@ bind 함수에서 계속 반복하기를 이용해 이동하기 때문에
 `2021/01/03`  
 ![1](https://playentry.org/uploads/discuss/7o/bu/image/7obuiby9kjh85qo20dbcbe352f5lmd5f.png)
 ![2](https://playentry.org/uploads/discuss/wf/50/image/wf50iwbykjh86u440nt0be352f5k7b6t.png)
+
 노팁 테이블 활용 시리즈
 1. [필독]테이블을 리스트 대신 쓰기: https://playentry.org/ds#!/tips/5fef1f01d1d2ad007b9b15e4
 2. 가상 오브젝트 패턴: https://playentry.org/ds#!/tips/5ff08be56c931c0ec07b808f
